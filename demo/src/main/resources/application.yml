@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres?currentSchema=hr
+    username: postgres
+    password: 2306
+    driver-class-name: org.postgresql.Driver
+  application:
+    name:
+       demo
+  batch:
+    job:
+      enabled: false
+  main:
+    allow-bean-definition-overriding: true
